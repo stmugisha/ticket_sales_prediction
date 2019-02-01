@@ -1,6 +1,7 @@
 ## ticket_sales_prediction
-
-https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-nairobi
+**The task** of this competition is to create a predictive model to forecast the number of tickets Mobi-ticket expects to sell
+with great accuracy.
+For more information visit: https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-nairobi
 
 ### Data Description
            train_revised.csv (zipped) is the dataset of tickets purchased from Mobiticket for the 14 routes from “up country” into Nairobi between 17 October 2017 and 20 April 2018. This dataset includes the variables: ride_id, seat_number, payment_method, payment_receipt, travel_date, travel_time, travel_from, travel_to, car_type, max_capacity.
