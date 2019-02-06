@@ -1,9 +1,10 @@
 ## ticket_sales_prediction
+**The task** of this competition is to create a predictive model to forecast the number of tickets Mobi-ticket expects to sell
+with great accuracy.
+For more information visit: https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-nairobi
 
-https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-nairobi
-
-### Description of the data
-           train_revised.csv (zipped) is the dataset of tickets purchased from Mobiticket for the 14 routes from ìup countryî into Nairobi between 17 October 2017 and 20 April 2018. This dataset includes the variables: ride_id, seat_number, payment_method, payment_receipt, travel_date, travel_time, travel_from, travel_to, car_type, max_capacity.
+### Data Description
+           train_revised.csv (zipped) is the dataset of tickets purchased from Mobiticket for the 14 routes from ‚Äúup country‚Äù into Nairobi between 17 October 2017 and 20 April 2018. This dataset includes the variables: ride_id, seat_number, payment_method, payment_receipt, travel_date, travel_time, travel_from, travel_to, car_type, max_capacity.
 
            test_questions.csv is the dataset on which you will apply your model to estimate number of tickets sold by Mobiticket per unique ride. This dataset contains all of the rides offered on the same 14 routes during the two weeks following train.csv, i.e. 21 April 2018 to 9 May 2018. The variables included in this dataset: ride_id, travel_date, travel_time, travel_from, travel_to, car_type, max_capacity.
 
@@ -13,13 +14,22 @@ https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-n
 
 ### Variables description:
 
-ride_id: unique ID of a vehicle on a specific route on a specific day and time.
-seat_number: seat assigned to ticket
-payment_method: method used by customer to purchase ticket from Mobiticket (cash or Mpesa)
-payment_receipt: unique id number for ticket purchased from Mobiticket
-travel_date: date of ride departure. (MM/DD/YYYY)
-travel_time: scheduled departure time of ride. Rides generally depart on time. (hh:mm)
-travel_from: town from which ride originated
-travel_to: destination of ride. All rides are to Nairobi.
-car_type: vehicle type (shuttle or bus)
-max_capacity: number of seats on the vehicle
+**ride_id: **unique ID of a vehicle on a specific route on a specific day and time.
+
+**seat_number:** seat assigned to ticket
+
+**payment_method:** method used by customer to purchase ticket from Mobiticket (cash or Mpesa)
+
+**payment_receipt:** unique id number for ticket purchased from Mobiticket
+
+**travel_date:** date of ride departure. (MM/DD/YYYY)
+
+**travel_time:** scheduled departure time of ride. Rides generally depart on time. (hh:mm)
+
+**travel_from:** town from which ride originated
+
+**travel_to:** destination of ride. All rides are to Nairobi.
+
+**car_type:** vehicle type (shuttle or bus)
+
+**max_capacity:** number of seats on the vehicle
