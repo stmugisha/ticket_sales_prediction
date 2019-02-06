@@ -1,6 +1,6 @@
 ## ticket_sales_prediction
-**The task** of this competition is to create a predictive model to forecast the number of tickets Mobi-ticket expects to sell
-with great accuracy.
+**The task** of this competition was to create a predictive model to forecast the number of tickets Mobi-ticket expects to sell
+with great accuracy and **my solution ranked 15th**
 For more information visit: https://zindi.africa/competitions/traffic-jam-predicting-peoples-movement-into-nairobi
 
 ### Data Description
